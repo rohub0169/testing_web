@@ -1,0 +1,12 @@
+{
+  "name": "saucedemo-playwright",
+  "version": "1.0.0",
+  "description": "Frontend test automation for saucedemo.com using Playwright",
+  "scripts": {
+    "test": "playwright test",
+    "test:report": "playwright test --reporter=html"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.44.0"
+  }
+}
